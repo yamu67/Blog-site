@@ -1,0 +1,51 @@
+.header{
+background-image: url('https://wallpaperaccess.com/full/1615365.png');
+background-repeat: no-repeat;
+min-height: 400px;
+width: 100%;
+}
+
+.nav-bar{
+    background-color: black;
+    height: 50px;
+}
+
+.logo-img{
+    width: 70px;
+float: left;
+}
+
+.nav-menu{
+    float: right;
+    display: flex;
+    min-width: 450px;
+    justify-content: space-evenly;
+}
+
+.nav-menu li{
+    list-style-type: none;
+}
+
+.nav-menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a.active{
+    color: aqua;
+}
+
+.nav-menu li a:hover{
+    color: aqua;
+    cursor: pointer;    
+}
+
+.header-container{
+    font-size: 48px;
+    color: white;
+}
+
+.header-container .header-content{
+    margin-top: 150px;
+    
+}
